@@ -1,9 +1,8 @@
 # Environment variables / API keys
 .env
-pyvenv.cfg
+
 # Python virtual environment
 .venv/
-.venv
 venv/
 __pycache__/
 
