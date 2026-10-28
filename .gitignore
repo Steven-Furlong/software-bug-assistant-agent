@@ -1,6 +1,6 @@
 # Environment variables / API keys
 .env
-
+pyvenv.cfg
 # Python virtual environment
 .venv/
 .venv
