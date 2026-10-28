@@ -1,6 +1,6 @@
 from google.adk.agents import Agent
 
-from .tools import get_current_date
+from .tools import get_current_date, search_tool
 
 # --- Agent Definition (model, instructions, tools) ---
 root_agent = Agent(
@@ -10,5 +10,5 @@ root_agent = Agent(
     You are a skilled expert in triaging and debugging software issues for a
     robotics company.
     """,
-    tools=[get_current_date],
+    tools=[get_current_date, search_tool],
 )
